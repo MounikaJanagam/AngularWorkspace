@@ -1,0 +1,20 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.mat-card{
+    width: 50%;
+}
+
+.mat-grid.list{
+    width: 500px;
+}
+.icon{
+    position: relative;
+    left: -100px;
+    font-size: 60px;
+
+}
+.values{
+    font-size: 25px;
+    position: relative;
+    right: -100px;
+}

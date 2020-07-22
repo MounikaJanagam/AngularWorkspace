@@ -1,0 +1,36 @@
+<div style="height: 50px; ">
+</div>
+<div style="height: 100px;  text-align: center;">
+<span style="font-size:xx-large;" >BarChart</span>
+</div>
+<div  fxLayout="row" flexLayoutAlign="center center">
+    <div fxFlex="40" fxLayout="row" fxLayoutAlign="center start" class="top-div-left">
+      <lib-barchart [bardata]=bar ></lib-barchart>
+    </div>
+    <div fxFlex="60" fxLayout="row" fxLayoutAlign="center center" class="top-div-right">
+      <mat-card class="example-card">
+          <mat-card-actions>
+            <button mat-raised-button color="primary" label="Click" (click)="toggleHtml()"><span class="but">HTML</span></button>
+            <button mat-raised-button color="accent" label="Click" (click)="toggleTs()"><span class="but">TS</span></button>
+            <button mat-raised-button color="warn" label="Click" (click)="toggleCss()"><span class="but">CSS</span></button>
+          </mat-card-actions>
+          <mat-card-content class="content">
+            <div *ngIf="showBarHtml">
+              <code>
+                <pre>{{barHtmlCode}}</pre>
+              </code>
+            </div> 
+            <div *ngIf="showBarTs">
+              <code>
+                <pre>{{barTsCode}}</pre>
+              </code>
+            </div>
+            <div *ngIf="showBarCss">
+              <code>
+                <pre>{{barCssCode}}</pre>
+              </code>
+            </div>
+          </mat-card-content>
+      </mat-card>
+    </div>
+  </div>

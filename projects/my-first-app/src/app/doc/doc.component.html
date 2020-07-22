@@ -1,0 +1,38 @@
+<mat-toolbar color="primary">
+    <!--<mat-toolbar-row>
+        <span>Custom Toolbar</span>
+    </mat-toolbar-row>
+    <mat-toolbar-row>
+      <mat-icon class="example-icon">favorite</mat-icon>
+      <mat-icon class="example-icon">delete</mat-icon>
+      <span>User name</span>
+      <span class="example-spacer"></span>-->
+    <mat-toolbar-row>
+      <a mat-button [color]="color" (mouseover)="color = 'warn'" (mouseout)="color = 'accent'" routerLink="/progressbarcomp"><span class="compname">Progress-Bar</span></a>
+      <a mat-button [color]="color" (mouseover)="color = 'warn'" (mouseout)="color = 'accent'" routerLink="/tablecomp"><span class="compname">Product-Table</span></a>
+      <a mat-button [color]="color" (mouseover)="color = 'warn'" (mouseout)="color = 'accent'" routerLink="/navbarcomp"><span class="compname">Toolbar</span></a>
+      <a mat-button [color]="color" (mouseover)="color = 'warn'" (mouseout)="color = 'accent'" routerLink="/linecomp"><span class="compname">Line-Chart</span></a>
+      <a mat-button [color]="color" (mouseover)="color = 'warn'" (mouseout)="color = 'accent'" routerLink="/piecomp"><span class="compname">Pie-Chart</span></a>
+      <a mat-button [color]="color" (mouseover)="color = 'warn'" (mouseout)="color = 'accent'" routerLink="/weather-reportcomp"><span class="compname">Weather-Report</span></a>
+      <a mat-button [color]="color" (mouseover)="color = 'warn'" (mouseout)="color = 'accent'" routerLink="/areacomp"><span class="compname">Area-Chart</span></a>
+      <a mat-button [color]="color" (mouseover)="color = 'warn'" (mouseout)="color = 'accent'" routerLink="/barcomp"><span class="compname">Bar-Chart</span></a>
+      <a mat-button [color]="color" (mouseover)="color = 'warn'" (mouseout)="color = 'accent'" routerLink="/cardlistcomp"><span class="compname">Grid-List</span></a>
+      <a mat-button [color]="color" (mouseover)="color = 'warn'" (mouseout)="color = 'accent'" routerLink="/gridcomp"><span class="compname">Grid</span></a>
+    </mat-toolbar-row>
+</mat-toolbar>
+  <!--
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <span>Custom Toolbar</span>
+    </mat-toolbar-row>
+    <mat-toolbar-row>
+      <mat-icon class="example-icon">favorite</mat-icon>
+      <mat-icon class="example-icon">delete</mat-icon>
+      <span>User name</span>
+      <span class="example-spacer"></span>
+      <mat-nav-list class="my-nav-list">
+        <a mat-list-item routerLink="login" >Login</a>
+        <a mat-list-item routerLink="login" >Logout</a>
+      </mat-nav-list>
+    </mat-toolbar-row>
+  </mat-toolbar>-->

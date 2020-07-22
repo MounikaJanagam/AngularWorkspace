@@ -1,0 +1,10 @@
+<mat-card>
+<mat-card-title>This Month</mat-card-title>
+<mat-card-content>
+ <div *ngFor="let i of getval" class="bar">
+ <span class="name">{{i.name}} </span>
+ <span class="value">{{i.value}}% </span>     
+   <mat-progress-bar class="pb" mode="determinate" value={{i.value}} color={{i.color}}></mat-progress-bar><br>
+ </div>
+</mat-card-content>
+</mat-card>

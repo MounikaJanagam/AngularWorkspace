@@ -1,0 +1,21 @@
+table {
+    width: 1000px;
+    align-content: center;
+  }
+.mat-header-row{
+  background-color: #000080;
+}
+.mat-header-cell{
+    color:white;
+    font-size: 18px;
+}
+.mat-column-Product{
+    width: 300px;
+}
+.mat-column-Product_Adds_To_Cart{
+    width: 130px;
+}
+
+.mat-column-Product_Revenue_per_Purchase{
+    width: 150px;
+}

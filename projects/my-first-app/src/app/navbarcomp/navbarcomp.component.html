@@ -1,0 +1,35 @@
+<div style="height: 50px;"></div>
+<div style="height: 100px;  text-align: center;">
+<span style="font-size:xx-large;" >Toolbar</span>
+</div>
+      <lib-navbar></lib-navbar>
+    
+<div style="height: 20px;"></div>
+<div  fxLayout="row" flexLayoutAlign="center center">
+    <div fxFlex="100" fxLayout="row" fxLayoutAlign="center center" class="top-div-right">
+      <mat-card class="example-card">
+          <mat-card-actions>
+            <button mat-raised-button color="primary" label="Click" (click)="toggleHtml()"><span class="but">HTML</span></button>
+            <button mat-raised-button color="accent" label="Click" (click)="toggleTs()"><span class="but">TS</span></button>
+            <button mat-raised-button color="warn" label="Click" (click)="toggleCss()"><span class="but">CSS</span></button>
+          </mat-card-actions>
+          <mat-card-content class="content">
+            <div *ngIf="showNavbarHtml">
+              <code>
+                <pre>{{navbarHtmlCode}}</pre>
+              </code>
+            </div> 
+            <div *ngIf="showNavbarTs">
+              <code>
+                <pre>{{navbarTsCode}}</pre>
+              </code>
+            </div>
+            <div *ngIf="showNavbarCss">
+              <code>
+                <pre>{{navbarCssCode}}</pre>
+              </code>
+            </div>
+          </mat-card-content>
+      </mat-card>
+    </div>
+  </div>

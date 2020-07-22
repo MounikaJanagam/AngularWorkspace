@@ -1,0 +1,28 @@
+
+.navbar{
+    justify-content: space-between;
+}
+span{
+    padding-right: 1rem;
+}
+.name{
+    position: relative;
+    left: 0.2rem;
+    vertical-align: super;
+    font-size: 23px;
+}
+.menu1{
+    position: relative;
+    left: 3.5rem;
+    font-size: 38px;
+    vertical-align: sub;
+}
+.logo{
+     vertical-align: super;
+}
+.icons{
+    vertical-align: sub;
+}
+.items{
+    font-size: 18px;
+}

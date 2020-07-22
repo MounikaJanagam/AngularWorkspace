@@ -1,0 +1,37 @@
+<table mat-table [dataSource]="items" class="mat-elevation-z8 rounded">
+
+    <ng-container matColumnDef="Product" >
+      <th mat-header-cell *matHeaderCellDef> Product </th>
+      <td mat-cell *matCellDef="let element"> {{element.Product}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="Product_Detail_Views">
+      <th mat-header-cell *matHeaderCellDef> Product Detail Views </th>
+      <td mat-cell *matCellDef="let element"> {{element.Product_Detail_Views}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="Product_Adds_To_Cart">
+      <th mat-header-cell *matHeaderCellDef> Product Adds To Cart </th>
+      <td mat-cell *matCellDef="let element"> {{element.Product_Adds_To_Cart}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="Product_Revenue">
+      <th mat-header-cell *matHeaderCellDef> Product Revenue </th>
+      <td mat-cell *matCellDef="let element"> {{element.Product_Revenue}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Product_Revenue_per_Purchase">
+        <th mat-header-cell *matHeaderCellDef> Product Revenue per Purchase </th>
+        <td mat-cell *matCellDef="let element"> {{element.Product_Revenue_per_Purchase}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="Cart_to_Detail_Rate">
+        <th mat-header-cell *matHeaderCellDef> Cart-to-Detail Rate </th>
+        <td mat-cell *matCellDef="let element"> {{element.Cart_to_Detail_Rate}} </td>
+      </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns" style="color: blanchedalmond;"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+  
+  

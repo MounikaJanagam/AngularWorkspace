@@ -1,0 +1,8 @@
+.my-nav-list {
+    display: flex;
+    flex-direction: row;
+}
+.compname{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: x-large;
+}

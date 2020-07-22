@@ -1,0 +1,25 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+/*.comp{
+  height: 200px;
+}*/
+.example-card {
+  width: 1000px;
+  height: 1000px;
+}
+ .but{
+    font-size: x-large;
+ }
+ .mat-card-actions{
+   background:rgba(2, 14, 20, 0.685);
+     padding:20px 20px;
+ }
+ .mat-card-content{
+  background:rgba(9, 129, 150, 0.685);
+    padding:20px 20px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: x-large;
+    
+    margin: 3px;
+    border: 3px;
+}
+  

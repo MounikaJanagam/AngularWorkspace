@@ -1,0 +1,16 @@
+<div class="grid">
+<mat-grid-list cols="2" rowHeight="2:1" [gutterSize]="'0px'">
+  <mat-grid-tile *ngFor="let i of listItems">
+    <div>
+       <span style="font-size:large;font-family:'Trebuchet MS';">{{i.name}}</span>
+        <br><br>
+        <span style="font-size:xx-large;">{{i.value}}</span>
+    </div>
+  </mat-grid-tile> 
+  <!--<mat-grid-tile>Sessions<br>34.9K</mat-grid-tile>
+  <mat-grid-tile>Revenue<br>$55K</mat-grid-tile>
+  <mat-grid-tile>Converion Rate<br>1.0%</mat-grid-tile>
+  <mat-grid-tile>Transactions<br>340.0</mat-grid-tile>>-->
+</mat-grid-list>
+</div>
+<h1>{{s}}</h1>

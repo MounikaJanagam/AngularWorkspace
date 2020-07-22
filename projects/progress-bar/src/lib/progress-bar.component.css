@@ -1,0 +1,18 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+.mat-card{
+  width: 520px;
+}
+.mat-card-title{
+  padding-bottom: 20px;
+ 
+}
+.pb{
+    height:  10px;
+}
+.value{
+    position: absolute;
+    left: 475px;
+}
+.name,.value{
+  font-size: 17px;
+}

@@ -1,0 +1,73 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "es2020",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "my-lib": [
+        "dist/my-lib/my-lib",
+        "dist/my-lib"
+      ],
+      "card-list": [
+        "dist/card-list/card-list",
+        "dist/card-list"
+      ],
+      "product-table": [
+        "dist/product-table/product-table",
+        "dist/product-table"
+      ],
+      "navbar": [
+        "dist/navbar/navbar",
+        "dist/navbar"
+      ],
+      "menubar": [
+        "dist/menubar/menubar",
+        "dist/menubar"
+      ],
+      "progress-bar": [
+        "dist/progress-bar/progress-bar",
+        "dist/progress-bar"
+      ],
+      "shopping-grid": [
+        "dist/shopping-grid/shopping-grid",
+        "dist/shopping-grid"
+      ],
+      "barchart": [
+        "dist/barchart/barchart",
+        "dist/barchart"
+      ],
+      "pie-chart": [
+        "dist/pie-chart/pie-chart",
+        "dist/pie-chart"
+      ],
+      "line-chart": [
+        "dist/line-chart/line-chart",
+        "dist/line-chart"
+      ],
+      "area-chart": [
+        "dist/area-chart/area-chart",
+        "dist/area-chart"
+      ],
+      "weather-report": [
+        "dist/weather-report/weather-report",
+        "dist/weather-report"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}

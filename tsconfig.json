@@ -1,23 +1,89 @@
+/*
+  This is a "Solution Style" tsconfig.json file, and is used by editors and TypeScript’s language server to improve development experience.
+  It is not intended to be used to perform a compilation.
+
+  To learn more about this file see: https://angular.io/config/solution-tsconfig.
+*/
 {
-  "compileOnSave": false,
-  "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
-    "sourceMap": true,
-    "declaration": false,
-    "downlevelIteration": true,
-    "experimentalDecorators": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "importHelpers": true,
-    "target": "es2015",
-    "lib": [
-      "es2018",
-      "dom"
-    ]
-  },
-  "angularCompilerOptions": {
-    "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
-  }
+  "files": [],
+  "references": [
+    {
+      "path": "./projects/my-first-app/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/my-first-app/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/my-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/my-lib/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/card-list/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/card-list/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/product-table/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/product-table/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/navbar/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/navbar/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/menubar/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/menubar/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/progress-bar/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/progress-bar/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/shopping-grid/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/shopping-grid/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/barchart/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/barchart/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/pie-chart/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/pie-chart/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/line-chart/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/line-chart/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/area-chart/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/area-chart/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/weather-report/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/weather-report/tsconfig.spec.json"
+    }
+  ]
 }

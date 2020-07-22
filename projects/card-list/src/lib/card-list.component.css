@@ -1,0 +1,15 @@
+.grid{
+  height: 250px;
+}
+.mat-grid-tile{
+   
+    padding-left: 0px;
+    background: #000080;
+    
+}
+.mat-grid-list
+{
+    width: 400px;
+    color: white;
+    font-size: 20px;  
+} 
