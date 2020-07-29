@@ -22,4 +22,9 @@ describe('WeatherReportComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  it('color of the table is displayed correctly',()=>{
+    const thead:HTMLElement=fixture.nativeElement.querySelector('thead');
+    const color=thead.style.backgroundColor;
+    expect(color).toEqual("rgb(15, 15, 66)");
+  })
 });

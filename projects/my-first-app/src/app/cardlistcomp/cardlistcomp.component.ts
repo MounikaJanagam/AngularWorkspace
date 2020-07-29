@@ -10,7 +10,7 @@ import { List } from 'projects/card-list/src/lib/list';
 export class CardlistcompComponent implements OnInit {
 
   public gridlist : List[] = cardcontent;
-  showListHtml: boolean = false;
+  showListHtml: boolean = true;
   showListTs: boolean = false;
   showListCss: boolean = false;
   toggleHtml(){

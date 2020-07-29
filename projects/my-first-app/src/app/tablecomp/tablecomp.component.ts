@@ -10,7 +10,7 @@ import { table } from 'projects/product-table/src/lib/table';
 export class TablecompComponent implements OnInit {
 
   public prodtable : table[] = tablecontent;
-  showTableHtml: boolean = false;
+  showTableHtml: boolean = true;
   showTableTs: boolean = false;
   showTableCss: boolean = false;
   toggleHtml(){

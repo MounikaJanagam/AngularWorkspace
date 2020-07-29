@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class BarcompComponent implements OnInit {
 
   public bar : barchartdata = barcontent;
-  showBarHtml: boolean = false;
+  showBarHtml: boolean = true;
   showBarTs: boolean = false;
   showBarCss: boolean = false;
   toggleHtml(){

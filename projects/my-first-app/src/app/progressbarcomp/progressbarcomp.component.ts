@@ -10,7 +10,7 @@ import { progressbarcontent } from '../progressbarcontent';
 export class ProgressbarcompComponent implements OnInit {
  
   public progress : barvalues[] = progressbarcontent;
-  showProgessHtml: boolean = false;
+  showProgessHtml: boolean = true;
   showProgessTs: boolean = false;
   showProgessCss: boolean = false;
   toggleHtml(){

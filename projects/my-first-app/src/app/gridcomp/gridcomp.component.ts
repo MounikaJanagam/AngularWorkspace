@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GridcompComponent implements OnInit {
 
-  showGridHtml: boolean = false;
+  showGridHtml: boolean = true;
   showGridTs: boolean = false;
   showGridCss: boolean = false;
   toggleHtml(){

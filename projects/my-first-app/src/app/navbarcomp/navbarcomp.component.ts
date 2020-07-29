@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarcompComponent implements OnInit {
 
-  showNavbarHtml: boolean = false;
+  showNavbarHtml: boolean = true;
   showNavbarTs: boolean = false;
   showNavbarCss: boolean = false;
   toggleHtml(){

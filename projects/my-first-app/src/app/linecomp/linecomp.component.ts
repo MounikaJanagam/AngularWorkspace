@@ -10,7 +10,7 @@ import { linecontent } from '../linecontent';
 export class LinecompComponent implements OnInit {
 
   public line : linechart = linecontent;
-  showLineHtml: boolean = false;
+  showLineHtml: boolean = true;
   showLineTs: boolean = false;
   showLineCss: boolean = false;
   toggleHtml(){

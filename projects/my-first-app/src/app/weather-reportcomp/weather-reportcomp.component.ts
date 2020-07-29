@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WeatherReportcompComponent implements OnInit {
 
-  showHtml: boolean = false;
+  showHtml: boolean = true;
   showTs: boolean = false;
   showCss: boolean = false;
   toggleHtml(){

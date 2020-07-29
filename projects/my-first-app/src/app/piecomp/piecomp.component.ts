@@ -11,7 +11,7 @@ export class PiecompComponent implements OnInit {
   
   
   public pie : data = piecontent;
-  showPieHtml: boolean = false;
+  showPieHtml: boolean = true;
   showPieTs: boolean = false;
   showPieCss: boolean = false;
   toggleHtml(){

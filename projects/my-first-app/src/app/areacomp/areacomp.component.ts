@@ -12,7 +12,7 @@ export class AreacompComponent implements OnInit {
 
   constructor() { }
   public area : areachart = areacontent;
-  showAreaHtml: boolean = false;
+  showAreaHtml: boolean = true;
   showAreaTs: boolean = false;
   showAreaCss: boolean = false;
   toggleHtml(){
